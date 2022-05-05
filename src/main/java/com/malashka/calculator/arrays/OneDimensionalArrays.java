@@ -1,4 +1,4 @@
-package main.java.com.malashka.epamtask.arrays;
+package main.java.com.malashka.calculator.arrays;
 
 import java.util.Arrays;
 import java.util.Scanner;

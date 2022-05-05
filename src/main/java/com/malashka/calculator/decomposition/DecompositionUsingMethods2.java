@@ -1,4 +1,4 @@
-package main.java.com.malashka.epamtask.decomposition;
+package main.java.com.malashka.calculator.decomposition;
 
 import java.util.Arrays;
 

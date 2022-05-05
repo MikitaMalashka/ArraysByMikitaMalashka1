@@ -1,4 +1,4 @@
-package main.java.com.malashka.epamtask.decomposition;
+package main.java.com.malashka.calculator.decomposition;
 
 public class DecompositionUsingMethods5 {
     public static int[] matrix = {2, 5, 3, 8, 5, 9};
