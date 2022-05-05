@@ -1,4 +1,4 @@
-package CalculatorProdByMikitaMalashka;
+package main.java.com.malashka.calculator;
 
 import java.util.Scanner;
 import java.lang.Math;
@@ -42,12 +42,13 @@ public class Calculator {
     }
 
     public static double sub (double x, double y) {
-        double result = x - y;
-        return result;
+        //можно прямо так)
+        return x - y;
     }
 
     public static double mult (double x, double y) {
         double result = x * y;
+        //смотри что подсвечивает тебе идея
         return result;
     }
 

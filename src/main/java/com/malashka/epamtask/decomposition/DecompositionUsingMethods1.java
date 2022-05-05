@@ -1,4 +1,4 @@
-package ArraysProdByMikitaMalashka;
+package main.java.com.malashka.epamtask.decomposition;
 
 public class DecompositionUsingMethods1 {
 

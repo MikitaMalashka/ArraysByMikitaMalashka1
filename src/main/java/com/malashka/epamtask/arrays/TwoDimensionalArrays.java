@@ -1,4 +1,4 @@
-package ArraysProdByMikitaMalashka;
+package main.java.com.malashka.epamtask.arrays;
 
 import java.util.Scanner;
 import java.util.Locale;

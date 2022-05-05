@@ -1,4 +1,4 @@
-package ArraysProdByMikitaMalashka;
+package main.java.com.malashka.epamtask.arrays;
 
 import java.util.Arrays;
 import java.util.Scanner;
