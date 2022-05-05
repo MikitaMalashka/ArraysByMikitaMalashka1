@@ -2,6 +2,7 @@
 # IntelliJ project files
 build
 .idea
+*.idea
 *.iml
 *.mv.db
 *.trace.db
