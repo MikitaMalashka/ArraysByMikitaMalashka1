@@ -1,4 +1,4 @@
-package main.java.com.malashka.calculator;
+package com.malashka.calculator;
 
 import java.util.Scanner;
 import java.lang.Math;

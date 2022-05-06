@@ -1,4 +1,4 @@
-package main.java.com.malashka.calculator.arrays;
+package com.malashka.calculator.arrays;
 
 import java.util.Scanner;
 import java.util.Locale;
