@@ -35,5 +35,12 @@ public class Main {
         dog.walk();
         dog.jump();
         dog.barks();
+
+
+        System.out.println(dog.getName() + " " + dog.getHeight() + " " + dog.getWeight());
+        dog.setName("sobaka zabiaka");
+        dog.setHeight(64);
+        dog.setWeight(68);
+        System.out.println(dog.getName() + " " + dog.getHeight() + " " + dog.getWeight());
     }
 }
