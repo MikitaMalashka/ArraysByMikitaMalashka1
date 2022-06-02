@@ -1,13 +1,15 @@
 package com.malashka.calculator.bike;
 
 public class SmallChildrenBike extends ChildrenBike {
+    Integer additionalWheels;
 
-    public SmallChildrenBike(int wheelNumber, String seatMaterial, String rudderFunction, String frameColor, int maxSpeed) {
-        super(wheelNumber, seatMaterial, rudderFunction, frameColor, maxSpeed);
+    public SmallChildrenBike(Integer wheelNumber, String seatMaterial, Integer maxSpeed, boolean bikeBell,
+                             Integer additionalWheels) {
+        super(wheelNumber, seatMaterial, maxSpeed, bikeBell);
+        this.additionalWheels = additionalWheels;
     }
 
-    public void getSmallChildrenBikeInfo() {
-        getChildrenBikeInfo();
-        System.out.println("\b" + "Добавляем 2 колеса для устойчивости\n");
+    public void addAdditionalWheels() {
+        System.out.println("- Добавляем дополнительные колеса");
     }
 }
