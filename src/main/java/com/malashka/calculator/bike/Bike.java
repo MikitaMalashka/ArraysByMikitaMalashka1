@@ -1,6 +1,6 @@
 package com.malashka.calculator.bike;
 
-public abstract class Bike {
+public class Bike {
     private Integer wheelNumber;
     private String seatMaterial;
     private Integer maxSpeed;
@@ -11,9 +11,15 @@ public abstract class Bike {
         this.maxSpeed = maxSpeed;
     }
 
-    public abstract void produceFrame();
-    public abstract void addRudder();
-    public abstract void addWheels();
+    public void produceFrame() {
+        System.out.println("- Варим велосипедную раму");
+    }
+    public void addRudder() {
+        System.out.println("- Привариваем к раме велосипедный руль");
+    }
+    public void addWheels() {
+        System.out.println("- Приделываем к велосипеду колеса");
+    }
 
     public int getWheelNumber() { return wheelNumber; }
 

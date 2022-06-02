@@ -7,13 +7,11 @@ public class MountainBike extends Bike {
     }
 
     @Override
-    public void produceFrame() {
-        System.out.println("- Варим укрепленную раму");
-    }
+    public void produceFrame() { System.out.println("- Варим укрепленную раму"); }
 
     @Override
     public void addRudder() {
-        System.out.println("- Привариваем к раме руль");
+        System.out.println("- Привариваем к раме укрепленный руль");
     }
 
     @Override
@@ -21,7 +19,4 @@ public class MountainBike extends Bike {
         System.out.println("- Крепим " + getWheelNumber() + " колеса");
     }
 
-    public void addDampers() {
-        System.out.println("- Добавляем улучшенные амортизаторы для езды по горам");
-    }
 }
