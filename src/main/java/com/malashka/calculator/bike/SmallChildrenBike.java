@@ -1,12 +1,9 @@
 package com.malashka.calculator.bike;
 
-public class SmallChildrenBike extends ChildrenBike {
+public class SmallChildrenBike extends Bike {
 
-    public SmallChildrenBike(Integer wheelNumber, String seatMaterial, Integer maxSpeed) {
-        super(wheelNumber, seatMaterial, maxSpeed);
+    public SmallChildrenBike() {
+        super();
     }
-
-    @Override
-    public void produceFrame() { System.out.println("- Варим укрепленную разноцветную раму");}
 
 }

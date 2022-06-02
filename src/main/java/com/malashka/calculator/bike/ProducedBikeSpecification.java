@@ -28,11 +28,10 @@ public class ProducedBikeSpecification {
         System.out.println("\n*******************************************\n");
 
         System.out.println("Ход производства маленького детского велосипеда: \n");
-        Bike smallChildrenBike = new SmallChildrenBike(2,
-                "гипоалергенный розовый/синий кожзам",20);
-        smallChildrenBike.produceFrame();
-        smallChildrenBike.addRudder();
-        smallChildrenBike.addWheels();
+        Bike smallChildrenBike = new SmallChildrenBike();
+        smallChildrenBike.setWheelNumber(2);
+        smallChildrenBike.setSeatMaterial("кожзам детский и все такое");
+        smallChildrenBike.setMaxSpeed(20);
         System.out.println();
         System.out.println("Характеристики произведенного велосипеда: \n");
         System.out.println("Количество колес изначально: " + smallChildrenBike.getWheelNumber());

@@ -11,6 +11,8 @@ public class Bike {
         this.maxSpeed = maxSpeed;
     }
 
+    public Bike() {}
+
     public void produceFrame() {
         System.out.println("- Варим велосипедную раму");
     }
